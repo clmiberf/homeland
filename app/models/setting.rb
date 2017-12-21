@@ -44,6 +44,11 @@ class Setting < RailsSettings::Base
       self.admin_emails.split(SEPARATOR_REGEXP).include?(email)
     end
 
+    def has_super_admin?(email)
+      return false if self.super_admin_emails.blank?
+      self.super_admin_emails.split(SEPARATOR_REGEXP).include?(email)
+    end
+
     def has_module?(name)
       return true if self.modules.blank? || self.modules == "all"
       self.module_list.include?(name.to_s)

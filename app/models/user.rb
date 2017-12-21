@@ -156,6 +156,11 @@ class User < ApplicationRecord
     Setting.has_admin?(email)
   end
 
+  # 是否超级管理员
+  def super_admin?
+    Setting.has_super_admin?(email)
+  end
+
   # 是否有 Wiki 维护权限
   def wiki_editor?
     self.admin? || verified == true
