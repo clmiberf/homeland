@@ -9,6 +9,7 @@ tmp/**/*
 .sass-cache/
 .yardoc/
 public/assets/
+config/cable.yml
 config/database.yml
 config/mongoid.yml
 config/config.yml
@@ -39,4 +40,3 @@ chromedriver.log
 spec/examples.txt
 .vagrant
 .byebug_history
-.ruby-version

@@ -127,6 +127,9 @@ gem 'homeland-site'
 gem 'sdoc', '~> 1.0.0.rc3'
 
 group :development do
+  gem 'mina', require: false
+  gem 'mina-sidekiq', '~> 1.0.2', require: false
+  gem 'mina-puma', require: false, github: 'untitledkingdom/mina-puma'
   gem 'derailed'
   # Better Errors
   gem 'better_errors'
