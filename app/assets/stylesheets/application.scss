@@ -295,8 +295,8 @@ a:hover { color: #303030; }
 .btn-success.active { background:$greenDark; border-color: $greenDark; }
 .open>.dropdown-toggle.btn-primary { background: #0059C7; }
 
-.navbar-btn { background: rgba(255,255,255, 0.1); color: $blueText; border:0px;}
-.navbar-btn:hover { background: rgba(255,255,255, 0.15); color: $blueText;}
+.navbar-btn { background: rgba(255,255,255, 0.1); color: $greenText; border:0px;}
+.navbar-btn:hover { background: rgba(255,255,255, 0.15); color: $greenText;}
 
 .label { font-weight: normal; border-radius: 2px; padding: 2px 4px;}
 .label-default { background: $grayLabel; color: $grayLabelText;}
@@ -347,7 +347,7 @@ a:hover { color: #303030; }
   box-shadow: inset 0 0 0px rgba(0,0,0, 0) !important;
   transition: none;
   -webkit-appearance: none;
-  &:focus { box-shadow: inset 0 0px 0px #fff; border-color: $blueLight; }
+  &:focus { box-shadow: inset 0 0px 0px #fff; border-color: $greenLight; }
   &[disabled], &[readonly] {
     background: #f0f0f0;
   }
@@ -460,7 +460,7 @@ form {
   li>a:hover { color: #555; background: $gray; }
 
   li.active>a,
-  li.active>a:hover { background-color: #CFDFFC; border-color: #BDCFEF !important; color: $blue; }
+  li.active>a:hover { background-color: #CFDFFC; border-color: #BDCFEF !important; color: $green; }
 }
 .pager {
   margin: 0px;
@@ -552,7 +552,7 @@ kbd {
 .nav-stacked.nav-pills>li.active>a,
 .nav-stacked.nav-pills>li.active>a:focus,
 .nav-stacked.nav-pills>li.active>a:hover {
-  color: $blue;
+  color: $green;
   background-color: #fff;
 }
 
@@ -616,7 +616,7 @@ kbd {
 }
 
 .turbolinks-progress-bar {
-  background-color: $blue !important;
+  background-color: $green !important;
   height: 2px !important;
 }
 
