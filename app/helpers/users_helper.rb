@@ -110,7 +110,7 @@ module UsersHelper
     return "" if user.blank?
     return "" if current_user.id == user.id
     followed = current_user.follow_user_ids.include?(user.id)
-    opts[:class] ||= "btn btn-primary btn-block"
+    opts[:class] ||= "btn btn-success btn-block"
     class_names = "button-follow-user #{opts[:class]}"
     icon = '<i class="fa fa-user"></i>'
     login = user.login
