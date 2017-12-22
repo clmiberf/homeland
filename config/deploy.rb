@@ -10,7 +10,7 @@ set :user, 'deploy'
 set :deploy_to, "/home/#{fetch(:user)}/ihzau"
 set :app_path, -> { "#{fetch(:deploy)}/#{fetch(:current_path)}" }
 set :repository, 'git@github.com:ihzau/homeland.git'
-set :branch, 'feature/mina'
+set :branch, 'master'
 set :term_mode, nil
 set :shared_paths, ['log', 'tmp']
 
